@@ -1,0 +1,58 @@
+{% extends "app/layout.html" %}
+
+
+{% block content %}
+
+<div class="row">
+    <div class="col-md-6">
+		<h2>Enviar Datos(Hex)</h2>
+		<form action="{% url 'enviar' %}" method="post">
+			{% csrf_token %}
+            <div class="form-group">
+                <label>DID</label>
+			    <input pattern="[A-Fa-f0-9]{1,}" type="text" name="arbitration_id" required class="form-control"/> <br/>
+            </div>
+			<div class="form-group">
+                <label>DATO</label>
+			    <input pattern="[A-Fa-f0-9]{1,}" type="text" name="data" required formenctype="application/x-www-form-urlencoded" class="form-control"/><br/>
+            </div>
+			
+			<input type="submit" value="Enviar" class="btn btn-primary btn-lg"/> 
+		</form>
+    </div>
+
+     <div class="col-md-6" id="tabla_enviados">
+        <h2>Envio de Datos(Hex)</h2>
+        <table class="table">
+			<tr>
+				<th>Tiempo</th>
+				<th>DID</th>
+				<th>Dato</th>
+				<th>Error?</th>
+			</tr>
+			{% for mensaje in mensajes_enviados %}
+				<tr> 
+					<td>{{ mensaje.transaccion_tiempo|date:"G:i:s" }}</td>
+					<td>{{ mensaje.can_arbitration_id }}</td>
+					<td>{{ mensaje.can_data }}</td>
+					<td>{{ mensaje.can_is_error_frame }}</td>
+				</tr>
+			{% endfor %}
+		</table>
+    </div>   
+</div>
+
+
+
+{% if messages %}
+<ul class="messages">
+    {% for message in messages %}
+		<script>
+          alert('{{ message }}');
+		</script>
+    {% endfor %}
+</ul>
+{% endif %}
+
+
+{% endblock %}

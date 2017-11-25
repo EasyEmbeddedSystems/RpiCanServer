@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>E:\06_WK\0wk\canapp\canapp\canapp\bin\Release\PublishOutput</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="app/admin.py">
+      <publishTime>11/11/2017 18:25:17</publishTime>
+    </File>
+    <File Include="app/forms.py">
+      <publishTime>11/11/2017 12:09:01</publishTime>
+    </File>
+    <File Include="app/migrations/__init__.py">
+      <publishTime>11/11/2017 12:09:01</publishTime>
+    </File>
+    <File Include="app/models.py">
+      <publishTime>11/12/2017 17:04:43</publishTime>
+    </File>
+    <File Include="app/static/app/content/bootstrap.css">
+      <publishTime>11/11/2017 12:09:01</publishTime>
+    </File>
+    <File Include="app/static/app/content/bootstrap.min.css">
+      <publishTime>11/11/2017 12:09:01</publishTime>
+    </File>
+    <File Include="app/static/app/content/site.css">
+      <publishTime>11/12/2017 16:06:25</publishTime>
+    </File>
+    <File Include="app/static/app/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>11/11/2017 12:09:01</publishTime>
+    </File>
+    <File Include="app/static/app/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>11/11/2017 12:09:01</publishTime>
+    </File>
+    <File Include="app/static/app/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>11/11/2017 12:09:01</publishTime>
+    </File>
+    <File Include="app/static/app/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>11/11/2017 12:09:01</publishTime>
+    </File>
+    <File Include="app/static/app/scripts/bootstrap.js">
+      <publishTime>11/11/2017 12:09:01</publishTime>
+    </File>
+    <File Include="app/static/app/scripts/bootstrap.min.js">
+      <publishTime>11/11/2017 12:09:01</publishTime>
+    </File>
+    <File Include="app/static/app/scripts/jquery-1.10.2.intellisense.js">
+      <publishTime>11/11/2017 12:09:01</publishTime>
+    </File>
+    <File Include="app/static/app/scripts/jquery-1.10.2.js">
+      <publishTime>11/11/2017 12:09:01</publishTime>
+    </File>
+    <File Include="app/static/app/scripts/jquery-1.10.2.min.js">
+      <publishTime>11/11/2017 12:09:01</publishTime>
+    </File>
+    <File Include="app/static/app/scripts/jquery-1.10.2.min.map">
+      <publishTime>11/11/2017 12:09:01</publishTime>
+    </File>
+    <File Include="app/static/app/scripts/jquery.validate-vsdoc.js">
+      <publishTime>11/11/2017 12:09:01</publishTime>
+    </File>
+    <File Include="app/static/app/scripts/jquery.validate.js">
+      <publishTime>11/11/2017 12:09:01</publishTime>
+    </File>
+    <File Include="app/static/app/scripts/jquery.validate.min.js">
+      <publishTime>11/11/2017 12:09:01</publishTime>
+    </File>
+    <File Include="app/static/app/scripts/jquery.validate.unobtrusive.js">
+      <publishTime>11/11/2017 12:09:01</publishTime>
+    </File>
+    <File Include="app/static/app/scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>11/11/2017 12:09:01</publishTime>
+    </File>
+    <File Include="app/static/app/scripts/modernizr-2.6.2.js">
+      <publishTime>11/11/2017 12:09:01</publishTime>
+    </File>
+    <File Include="app/static/app/scripts/respond.js">
+      <publishTime>11/11/2017 12:09:01</publishTime>
+    </File>
+    <File Include="app/static/app/scripts/respond.min.js">
+      <publishTime>11/11/2017 12:09:01</publishTime>
+    </File>
+    <File Include="app/static/app/scripts/_references.js">
+      <publishTime>11/11/2017 12:09:01</publishTime>
+    </File>
+    <File Include="app/templates/app/about.html">
+      <publishTime>11/11/2017 12:09:01</publishTime>
+    </File>
+    <File Include="app/templates/app/contact.html">
+      <publishTime>11/12/2017 16:25:46</publishTime>
+    </File>
+    <File Include="app/templates/app/index.html">
+      <publishTime>11/13/2017 09:05:10</publishTime>
+    </File>
+    <File Include="app/templates/app/layout.html">
+      <publishTime>11/12/2017 16:50:16</publishTime>
+    </File>
+    <File Include="app/templates/app/login.html">
+      <publishTime>11/11/2017 12:09:01</publishTime>
+    </File>
+    <File Include="app/templates/app/loginpartial.html">
+      <publishTime>11/11/2017 12:09:01</publishTime>
+    </File>
+    <File Include="app/templates/app/recibir.html">
+      <publishTime>11/13/2017 09:05:26</publishTime>
+    </File>
+    <File Include="app/tests.py">
+      <publishTime>11/11/2017 12:09:01</publishTime>
+    </File>
+    <File Include="app/views.py">
+      <publishTime>11/25/2017 11:54:21</publishTime>
+    </File>
+    <File Include="app/__init__.py">
+      <publishTime>11/11/2017 12:09:01</publishTime>
+    </File>
+    <File Include="canapp/settings.py">
+      <publishTime>11/12/2017 13:52:20</publishTime>
+    </File>
+    <File Include="canapp/urls.py">
+      <publishTime>11/12/2017 19:37:12</publishTime>
+    </File>
+    <File Include="canapp/wsgi.py">
+      <publishTime>11/11/2017 16:05:35</publishTime>
+    </File>
+    <File Include="canapp/__init__.py">
+      <publishTime>11/11/2017 16:05:35</publishTime>
+    </File>
+    <File Include="db.sqlite3">
+      <publishTime>11/25/2017 11:54:35</publishTime>
+    </File>
+    <File Include="manage.py">
+      <publishTime>11/11/2017 16:05:35</publishTime>
+    </File>
+    <File Include="requirements.txt">
+      <publishTime>11/11/2017 12:09:01</publishTime>
+    </File>
+    <File Include="static/admin/css/base.css">
+      <publishTime>11/12/2017 00:37:14</publishTime>
+    </File>
+    <File Include="static/admin/css/changelists.css">
+      <publishTime>11/12/2017 00:37:14</publishTime>
+    </File>
+    <File Include="static/admin/css/dashboard.css">
+      <publishTime>11/12/2017 00:37:14</publishTime>
+    </File>
+    <File Include="static/admin/css/fonts.css">
+      <publishTime>11/12/2017 00:37:14</publishTime>
+    </File>
+    <File Include="static/admin/css/forms.css">
+      <publishTime>11/12/2017 00:37:14</publishTime>
+    </File>
+    <File Include="static/admin/css/login.css">
+      <publishTime>11/12/2017 00:37:14</publishTime>
+    </File>
+    <File Include="static/admin/css/rtl.css">
+      <publishTime>11/12/2017 00:37:14</publishTime>
+    </File>
+    <File Include="static/admin/css/widgets.css">
+      <publishTime>11/12/2017 00:37:14</publishTime>
+    </File>
+    <File Include="static/admin/fonts/LICENSE.txt">
+      <publishTime>11/12/2017 00:37:14</publishTime>
+    </File>
+    <File Include="static/admin/fonts/README.txt">
+      <publishTime>11/12/2017 00:37:14</publishTime>
+    </File>
+    <File Include="static/admin/fonts/Roboto-Bold-webfont.woff">
+      <publishTime>11/12/2017 00:37:14</publishTime>
+    </File>
+    <File Include="static/admin/fonts/Roboto-Light-webfont.woff">
+      <publishTime>11/12/2017 00:37:14</publishTime>
+    </File>
+    <File Include="static/admin/fonts/Roboto-Regular-webfont.woff">
+      <publishTime>11/12/2017 00:37:14</publishTime>
+    </File>
+    <File Include="static/admin/img/calendar-icons.svg">
+      <publishTime>11/12/2017 00:37:14</publishTime>
+    </File>
+    <File Include="static/admin/img/gis/move_vertex_off.svg">
+      <publishTime>11/12/2017 00:37:15</publishTime>
+    </File>
+    <File Include="static/admin/img/gis/move_vertex_on.svg">
+      <publishTime>11/12/2017 00:37:15</publishTime>
+    </File>
+    <File Include="static/admin/img/icon-addlink.svg">
+      <publishTime>11/12/2017 00:37:14</publishTime>
+    </File>
+    <File Include="static/admin/img/icon-alert.svg">
+      <publishTime>11/12/2017 00:37:14</publishTime>
+    </File>
+    <File Include="static/admin/img/icon-calendar.svg">
+      <publishTime>11/12/2017 00:37:14</publishTime>
+    </File>
+    <File Include="static/admin/img/icon-changelink.svg">
+      <publishTime>11/12/2017 00:37:14</publishTime>
+    </File>
+    <File Include="static/admin/img/icon-clock.svg">
+      <publishTime>11/12/2017 00:37:14</publishTime>
+    </File>
+    <File Include="static/admin/img/icon-deletelink.svg">
+      <publishTime>11/12/2017 00:37:14</publishTime>
+    </File>
+    <File Include="static/admin/img/icon-no.svg">
+      <publishTime>11/12/2017 00:37:14</publishTime>
+    </File>
+    <File Include="static/admin/img/icon-unknown-alt.svg">
+      <publishTime>11/12/2017 00:37:14</publishTime>
+    </File>
+    <File Include="static/admin/img/icon-unknown.svg">
+      <publishTime>11/12/2017 00:37:14</publishTime>
+    </File>
+    <File Include="static/admin/img/icon-yes.svg">
+      <publishTime>11/12/2017 00:37:14</publishTime>
+    </File>
+    <File Include="static/admin/img/inline-delete.svg">
+      <publishTime>11/12/2017 00:37:14</publishTime>
+    </File>
+    <File Include="static/admin/img/LICENSE">
+      <publishTime>11/12/2017 00:37:14</publishTime>
+    </File>
+    <File Include="static/admin/img/README.txt">
+      <publishTime>11/12/2017 00:37:14</publishTime>
+    </File>
+    <File Include="static/admin/img/search.svg">
+      <publishTime>11/12/2017 00:37:14</publishTime>
+    </File>
+    <File Include="static/admin/img/selector-icons.svg">
+      <publishTime>11/12/2017 00:37:15</publishTime>
+    </File>
+    <File Include="static/admin/img/sorting-icons.svg">
+      <publishTime>11/12/2017 00:37:15</publishTime>
+    </File>
+    <File Include="static/admin/img/tooltag-add.svg">
+      <publishTime>11/12/2017 00:37:15</publishTime>
+    </File>
+    <File Include="static/admin/img/tooltag-arrowright.svg">
+      <publishTime>11/12/2017 00:37:15</publishTime>
+    </File>
+    <File Include="static/admin/js/actions.js">
+      <publishTime>11/12/2017 00:37:15</publishTime>
+    </File>
+    <File Include="static/admin/js/actions.min.js">
+      <publishTime>11/12/2017 00:37:15</publishTime>
+    </File>
+    <File Include="static/admin/js/admin/DateTimeShortcuts.js">
+      <publishTime>11/12/2017 00:37:15</publishTime>
+    </File>
+    <File Include="static/admin/js/admin/RelatedObjectLookups.js">
+      <publishTime>11/12/2017 00:37:15</publishTime>
+    </File>
+    <File Include="static/admin/js/calendar.js">
+      <publishTime>11/12/2017 00:37:15</publishTime>
+    </File>
+    <File Include="static/admin/js/cancel.js">
+      <publishTime>11/12/2017 00:37:15</publishTime>
+    </File>
+    <File Include="static/admin/js/change_form.js">
+      <publishTime>11/12/2017 00:37:15</publishTime>
+    </File>
+    <File Include="static/admin/js/collapse.js">
+      <publishTime>11/12/2017 00:37:15</publishTime>
+    </File>
+    <File Include="static/admin/js/collapse.min.js">
+      <publishTime>11/12/2017 00:37:15</publishTime>
+    </File>
+    <File Include="static/admin/js/core.js">
+      <publishTime>11/12/2017 00:37:15</publishTime>
+    </File>
+    <File Include="static/admin/js/inlines.js">
+      <publishTime>11/12/2017 00:37:15</publishTime>
+    </File>
+    <File Include="static/admin/js/inlines.min.js">
+      <publishTime>11/12/2017 00:37:15</publishTime>
+    </File>
+    <File Include="static/admin/js/jquery.init.js">
+      <publishTime>11/12/2017 00:37:15</publishTime>
+    </File>
+    <File Include="static/admin/js/popup_response.js">
+      <publishTime>11/12/2017 00:37:15</publishTime>
+    </File>
+    <File Include="static/admin/js/prepopulate.js">
+      <publishTime>11/12/2017 00:37:15</publishTime>
+    </File>
+    <File Include="static/admin/js/prepopulate.min.js">
+      <publishTime>11/12/2017 00:37:15</publishTime>
+    </File>
+    <File Include="static/admin/js/prepopulate_init.js">
+      <publishTime>11/12/2017 00:37:15</publishTime>
+    </File>
+    <File Include="static/admin/js/SelectBox.js">
+      <publishTime>11/12/2017 00:37:15</publishTime>
+    </File>
+    <File Include="static/admin/js/SelectFilter2.js">
+      <publishTime>11/12/2017 00:37:15</publishTime>
+    </File>
+    <File Include="static/admin/js/timeparse.js">
+      <publishTime>11/12/2017 00:37:15</publishTime>
+    </File>
+    <File Include="static/admin/js/urlify.js">
+      <publishTime>11/12/2017 00:37:15</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/jquery/jquery.js">
+      <publishTime>11/12/2017 00:37:15</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/jquery/jquery.min.js">
+      <publishTime>11/12/2017 00:37:15</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/jquery/LICENSE-JQUERY.txt">
+      <publishTime>11/12/2017 00:37:15</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/xregexp/LICENSE-XREGEXP.txt">
+      <publishTime>11/12/2017 00:37:15</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/xregexp/xregexp.js">
+      <publishTime>11/12/2017 00:37:15</publishTime>
+    </File>
+    <File Include="static/admin/js/vendor/xregexp/xregexp.min.js">
+      <publishTime>11/12/2017 00:37:15</publishTime>
+    </File>
+    <File Include="static/app/content/bootstrap.css">
+      <publishTime>11/12/2017 00:37:14</publishTime>
+    </File>
+    <File Include="static/app/content/bootstrap.min.css">
+      <publishTime>11/12/2017 00:37:14</publishTime>
+    </File>
+    <File Include="static/app/content/site.css">
+      <publishTime>11/13/2017 19:48:44</publishTime>
+    </File>
+    <File Include="static/app/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>11/12/2017 00:37:14</publishTime>
+    </File>
+    <File Include="static/app/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>11/12/2017 00:37:14</publishTime>
+    </File>
+    <File Include="static/app/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>11/12/2017 00:37:14</publishTime>
+    </File>
+    <File Include="static/app/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>11/12/2017 00:37:14</publishTime>
+    </File>
+    <File Include="static/app/scripts/bootstrap.js">
+      <publishTime>11/12/2017 00:37:14</publishTime>
+    </File>
+    <File Include="static/app/scripts/bootstrap.min.js">
+      <publishTime>11/12/2017 00:37:14</publishTime>
+    </File>
+    <File Include="static/app/scripts/jquery-1.10.2.intellisense.js">
+      <publishTime>11/12/2017 00:37:14</publishTime>
+    </File>
+    <File Include="static/app/scripts/jquery-1.10.2.js">
+      <publishTime>11/12/2017 00:37:14</publishTime>
+    </File>
+    <File Include="static/app/scripts/jquery-1.10.2.min.js">
+      <publishTime>11/12/2017 00:37:14</publishTime>
+    </File>
+    <File Include="static/app/scripts/jquery-1.10.2.min.map">
+      <publishTime>11/12/2017 00:37:14</publishTime>
+    </File>
+    <File Include="static/app/scripts/jquery.validate-vsdoc.js">
+      <publishTime>11/12/2017 00:37:14</publishTime>
+    </File>
+    <File Include="static/app/scripts/jquery.validate.js">
+      <publishTime>11/12/2017 00:37:14</publishTime>
+    </File>
+    <File Include="static/app/scripts/jquery.validate.min.js">
+      <publishTime>11/12/2017 00:37:14</publishTime>
+    </File>
+    <File Include="static/app/scripts/jquery.validate.unobtrusive.js">
+      <publishTime>11/12/2017 00:37:14</publishTime>
+    </File>
+    <File Include="static/app/scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>11/12/2017 00:37:14</publishTime>
+    </File>
+    <File Include="static/app/scripts/modernizr-2.6.2.js">
+      <publishTime>11/12/2017 00:37:14</publishTime>
+    </File>
+    <File Include="static/app/scripts/respond.js">
+      <publishTime>11/12/2017 00:37:14</publishTime>
+    </File>
+    <File Include="static/app/scripts/respond.min.js">
+      <publishTime>11/12/2017 00:37:14</publishTime>
+    </File>
+    <File Include="static/app/scripts/_references.js">
+      <publishTime>11/12/2017 00:37:14</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

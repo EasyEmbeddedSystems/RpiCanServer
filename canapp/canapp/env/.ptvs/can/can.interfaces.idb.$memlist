@@ -1,0 +1,15 @@
+usb2can
+PCANBasic
+serial
+virtual
+ixxat
+serial_can
+kvaser
+usb2canInterface
+pcan_constants
+pcan
+socketcan_constants
+socketcan_ctypes
+interface
+usb2canSerialFindWin
+socketcan_native

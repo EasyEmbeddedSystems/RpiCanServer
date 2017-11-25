@@ -1,0 +1,7 @@
+serial
+strComputer
+win32com
+objWMIService
+WMIDateStringToDate
+objSWbemServices
+colItems

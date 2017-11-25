@@ -1,0 +1,47 @@
+﻿{% extends "app/layout.html" %}
+
+
+{% block content %}
+
+<div class="row">
+   
+    <div class="col-md-12" id="tabla_recibidos">
+        <h2>Recepcion de Datos(Hex)</h2>
+        <table class="table">
+			<tr>
+				<th>Tiempo</th>
+				<th>DID</th>
+				<th>Dato</th>
+				<th>Error?</th>
+			</tr>
+			{% for mensaje in mensajes_recibidos %}
+				<tr> 
+					<td>{{ mensaje.transaccion_tiempo|date:"G:i:s" }}</td>
+					<td>{{ mensaje.can_arbitration_id }}</td>
+					<td>{{ mensaje.can_data }}</td>
+					<td>{{ mensaje.can_is_error_frame }}</td>
+				</tr>
+			{% endfor %}
+		</table>
+    </div>   
+
+	
+</div>
+
+{% endblock %}
+
+{% block scripts %}
+	<script>
+		$(document).ready(function() {
+		  setInterval(function() {
+			cache_clear()
+		  }, 5000);
+		});
+
+		function cache_clear() {
+		  window.location.reload(true);
+		  // window.location.reload(); use this if you do not remove cache
+		}
+	</script>
+
+{% endblock %}
