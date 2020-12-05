@@ -43,41 +43,41 @@ You can setup this project on a Raspberry Pi device using a MCP2515 (throught SP
 # RPI deployment instructions
 For the moment you have to follow these instructions manually:
 
-<b>At your development computer:</b>
+<b>At your development computer:</b><br/>
 
-#Copy your deployment files to the raspberry
-scp -r LocalCanappDeployFolder pi@10.0.0.100.someDirectory:canapp
+#Copy your deployment files to the raspberry<br/>
+scp -r LocalCanappDeployFolder pi@10.0.0.100.someDirectory:canapp<br/>
 
-<b>At the raspberry:</b>
+<b>At the raspberry:</b><br/>
 
-#update the rpi
-sudo apt-get update
-sudo apt-get upgrade
+#update the rpi<br/>
+sudo apt-get update<br/>
+sudo apt-get upgrade<br/>
 
-#verify python3 is installed
-python3 --version
+#verify python3 is installed<br/>
+python3 --version<br/>
 
-#install pip3
-sudo apt-get install -y python3-pip
+#install pip3<br/>
+sudo apt-get install -y python3-pip<br/>
 
-#install virtual enviroment
-sudo pip3 install virtualenv 
+#install virtual enviroment<br/>
+sudo pip3 install virtualenv<br/>
 
-#navigate to copied files
-cd ~/canapp/
+#navigate to copied files<br/>
+cd ~/canapp/<br/>
 
-#create virtual enviroment and start it
-virtualenv venv && source venv/bin/activate
+#create virtual enviroment and start it<br/>
+virtualenv venv && source venv/bin/activate<br/>
 
-#install python-can library and django
-pip3 install python-can django
+#install python-can library and django<br/>
+pip3 install python-can django<br/>
 
-#init server
-python3 manage.py makemigrations
-python3 manage.py migrate
-python3 manage.py runserver 0:8000
+#init server<br/>
+python3 manage.py makemigrations<br/>
+python3 manage.py migrate<br/>
+python3 manage.py runserver 0:8000<br/>
 
-#Add to bootup (on session startup, if needed)
-sudo nano /etc/profile
-#Add to file (libraries should have been installed in regular enviroment, nor virtual):
-@sudo python3 ~/canapp/manage.py runserver 0:8000
+#Add to bootup (on session startup, if needed)<br/>
+sudo nano /etc/profile<br/>
+#Add to file (libraries should have been installed in regular enviroment, nor virtual):<br/>
+@sudo python3 ~/canapp/manage.py runserver 0:8000<br/>
